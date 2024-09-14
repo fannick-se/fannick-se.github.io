@@ -28,8 +28,8 @@ nav {
 
 .menu-button {
     font-size: 24px;
-    background-color: white;
-    color: #333;
+    background-color: #334;
+    color: white;
     cursor: pointer;
     display: inline-block;
     min-height:1em;
