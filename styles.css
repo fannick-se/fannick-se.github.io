@@ -19,10 +19,14 @@ header {
     width: 100%;
 }
 
+/* Updated Menu Styles */
 nav {
     position: relative;
     background-color: #333;
-    padding: 10px;
+    padding: 0.5em 10px;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center;
 }
 
 .menu-button {
@@ -30,13 +34,16 @@ nav {
     color: white;
     cursor: pointer;
     display: inline-block;
+    min-height: 2.5em;
 }
 
+/* The menu is hidden by default on mobile */
 .menu {
     list-style: none;
     display: none;
     background-color: #333;
     padding: 10px;
+    width: 100%;
 }
 
 .menu li {
