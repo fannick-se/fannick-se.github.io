@@ -33,9 +33,9 @@ nav {
     cursor: pointer;
     display: inline-block;
     min-height:1em;
-    min-width:1em;
+    min-width:2em;
     float:right;
-    clear:both;
+    clear:right;
     border-radius:5px;
     
 }
