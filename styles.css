@@ -23,15 +23,13 @@ header {
 nav {
     position: relative;
     background-color: #fff;
-    padding: 0.5em 10px;
-    display: flex;
-    justify-content: flex-end; /* Align items to the right */
-    align-items: center;
+    padding: 10px;
 }
 
 .menu-button {
     font-size: 24px;
-    color: black;
+    background-color: #ccc;
+    color: white;
     cursor: pointer;
     display: inline-block;
     min-height: 2.5em;
