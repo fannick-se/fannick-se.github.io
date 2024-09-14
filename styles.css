@@ -35,7 +35,7 @@ nav {
     min-height:1em;
     min-width:2em;
     float:right;
-    clear:left;
+    clear:both;
     border-radius:5px;
     text-align:center;
     vertical-align:center;
