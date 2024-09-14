@@ -87,15 +87,3 @@ nav {
 h1 {
     margin-bottom: 20px;
 }
-
-/* Responsive Styles */
-@media (min-width: 768px) {
-    .menu {
-        display: block;
-        position: static;
-    }
-
-    .menu-button {
-        display: none;
-    }
-}
