@@ -1,11 +1,9 @@
----
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website</title>
+    <title>{{ site.title }}</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -13,20 +11,18 @@
 <body>
     <header>
         <nav>
-        
-            <div class="menu-button">☰</div>
-         
-     
+            <div class="menu-button" onclick="$('.menu').slideToggle(200);">☰</div>
             <ul class="menu">
-                <li><a href="https://google.com">Home</a></li>
+            {% for page in site.pages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-           
         </nav>
         <div class="header-image">
-            <img src="header_image.jpg" alt="Header Image">
+            <img src="{{ site.headerimage }}" alt="{{ site.title }} logotype">
         </div>
     </header>
     
@@ -35,7 +31,5 @@
         {{content}}
         </section>
     </main>
-
-    <script src="script.js"></script>
 </body>
 </html>
