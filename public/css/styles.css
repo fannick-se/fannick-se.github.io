@@ -8,9 +8,40 @@
 body {
     font-family: 'Lato', sans-serif;
     background-color: white;
-    color: black;
-    line-height: 1.6;
-    padding: 20px;
+    font-size: 13px; 
+    font-weight: 400; 
+    color: #444; 
+    line-height: 140%; 
+    letter-spacing: 1px;
+}
+
+body, div { margin: 0; padding: 0; }
+input { font-family: 'Lato', sans-serif; }
+a {color: #444; text-decoration: none; transition: background 0.3s ease 0s, color 0.3s ease 0s; }
+a:hover { color: #666; text-decoration: none; }
+h1,h2,h3,h4,h5,p { margin: 10px 0; }
+img { border: none; }
+p { 
+    line-height: 160%;
+    padding-bottom: 2em;
+}
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 /* Menu Styles */
@@ -89,17 +120,3 @@ nav {
     padding: 20px;
 }
 
-h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 25px;
-    margin-bottom: 15px;
-}
-
-h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
