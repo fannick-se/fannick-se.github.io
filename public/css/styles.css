@@ -78,6 +78,7 @@ nav {
     color: #333;
     padding: 10px;
     clear:both;
+    width: 300px; 
 }
 
 .menu li {
@@ -115,14 +116,30 @@ nav {
 
 /* Content Styles */
 .content {
+    width: 1160px; 
+    margin: auto;
     padding: 20px;
 }
 
 @media only screen and (max-width: 1200px) {
+
+.content {
+    width: 1200px; 
+}
+
+.menu {
+max-width: 650px;
+}
+
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
+
+.content {
+    width: 748px; margin: 0 auto;
+}
+
 }
 
 
@@ -206,6 +223,7 @@ nav {
 /* Content Styles */
 .content {
     padding: 20px;
+    width: 300px; 
 }
 
 }
