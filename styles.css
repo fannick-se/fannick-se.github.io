@@ -33,11 +33,12 @@ nav {
     cursor: pointer;
     display: block;
     float:right;
-    min-height:1em;
-    min-width:2em;
+    height:30px;
+    width:30px;
     border-radius:5px;
     text-align:center;
     vertical-align:center;
+    line-height:30px
 }
 
 .menu {
