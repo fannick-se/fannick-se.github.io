@@ -1,6 +1,7 @@
 ---
 layout: home
-title: "Fännick van Dorn"
+title: "Aktuellt"
+permalink: /test/
 ---
 
             
