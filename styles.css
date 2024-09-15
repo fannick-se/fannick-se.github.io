@@ -31,7 +31,9 @@ nav {
     background-color: #333;
     color: white;
     cursor: pointer;
-    display: inline-block;
+    display: block;
+    float:right;
+    clear:both;
     min-height:1em;
     min-width:2em;
     border-radius:5px;
