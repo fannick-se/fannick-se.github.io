@@ -180,6 +180,7 @@ nav {
 }
 
 .menu {
+    width:100%;
     list-style: none;
     display: none;
     background-color: white;
@@ -223,7 +224,7 @@ nav {
 
 /* Content Styles */
 .content {
-    padding: 20px;
+    padding: 2em;
     width: 760px; 
 }
 
