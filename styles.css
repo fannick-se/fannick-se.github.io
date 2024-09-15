@@ -33,7 +33,6 @@ nav {
     cursor: pointer;
     display: block;
     float:right;
-    clear:both;
     min-height:1em;
     min-width:2em;
     border-radius:5px;
@@ -48,6 +47,7 @@ nav {
     color: #333;
     padding: 10px;
     max-width:700px;
+    clear:both;
 }
 
 .menu li {
