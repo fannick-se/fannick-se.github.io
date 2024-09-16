@@ -42,6 +42,12 @@ h3 {
     margin-bottom: 10px;
 }
 
+#tombstone {
+  max-width:1024px;
+  padding-left:auto;
+  padding-right:auto;
+}
+
 
 nav {
   background-color: white;
@@ -55,12 +61,6 @@ nav {
   margin: 0;
   display: none; /* Menu hidden by default on mobile */
   padding-top: 30px;
-}
-
-
-
-#menu li {
-  margin: 10px 0;
 }
 
 
@@ -129,7 +129,7 @@ main {
 /* Desktop Styles */
 @media (min-width: 761px) {
   #nav {
-    width: 30%;
+    width: 25%;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -147,14 +147,14 @@ main {
   }
 
   header {
-    margin-left: 30%; /* Push header to the right */
+    margin-left: 25%; /* Push header to the right */
     padding: 20px;
   }
 
   main {
-    margin-left: 30%; /* Push content to the right */
+    margin-left: 25%; /* Push content to the right */
     padding: 20px;
-    max-width: 70%; /* Restrict main content width */
+    max-width: 75%; /* Restrict main content width */
   }
 
   #logo {

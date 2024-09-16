@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div id="tombstone">
   <nav id="nav">
     <ul id="menu">
       {% for page in site.pages %}
@@ -26,7 +27,7 @@
   <main>
     {{content}}
   </main>
-
+  </div>
   <script>
     function toggleMenu() {
     document.getElementById('nav').classList.toggle('open');
