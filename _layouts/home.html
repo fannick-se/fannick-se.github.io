@@ -11,7 +11,9 @@
   <nav id="nav">
     <ul id="menu">
       {% for page in site.pages %}
+      {% unless page.title == "" %}
       <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endunless %}
       {% endfor %}
     </ul>
     <button id="menu-toggle" onclick="toggleMenu()">☰</button>
