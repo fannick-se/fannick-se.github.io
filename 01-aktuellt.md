@@ -12,5 +12,6 @@ permalink: /aktuellt/
 
 ## Följ arbetet på Instagram
 
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/YOUR_USERNAME" data-instgrm-version="14"></blockquote>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/fannickvandoorn" data-instgrm-version="14"></blockquote>
 <script async src="//www.instagram.com/embed.js"></script>
+https://www.instagram.com/fannickvandoorn?igsh=OWRjeDRhZ2N5MjRz
