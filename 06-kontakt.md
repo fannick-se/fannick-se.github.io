@@ -1,6 +1,7 @@
 ---
 title: Kontakt
 layout: home
+is_menu: true
 ---
 
 Fännick van Doorn

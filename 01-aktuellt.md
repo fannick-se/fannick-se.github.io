@@ -2,6 +2,7 @@
 layout: home
 title: "Aktuellt"
 permalink: /aktuellt/
+is_menu: true
 ---
 
             

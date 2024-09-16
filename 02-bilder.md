@@ -1,6 +1,8 @@
 ---
 title: Bilder
 permalink: /bilder/
+layout: home
+is_menu: true
 ---
 
 
